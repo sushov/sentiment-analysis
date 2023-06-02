@@ -1,7 +1,3 @@
-
-Certainly! Here's an example of a more comprehensive README.md file that includes additional details:
-
-markdown
 Copy code
 # Sentiment Analysis App
 
@@ -34,23 +30,19 @@ Before running the application, make sure you have the following dependencies in
 
 You can install the required dependencies using the following command:
 
-```bash
 pip install -r requirements.txt
 Getting Started
 Clone the repository:
 
-bash
-Copy code
+
 git clone https://github.com/your-username/sentiment-analysis-app.git
 Navigate to the project directory:
 
-bash
-Copy code
+
 cd sentiment-analysis-app
 Run the application:
 
-bash
-Copy code
+
 python app.py
 Open your web browser and go to http://localhost:5000 to access the Sentiment Analysis App.
 
@@ -77,6 +69,5 @@ The Flask framework was used for building the web application.
 NLTK (Natural Language Toolkit) was used for text preprocessing and the WordNet lemmatizer.
 Scikit-learn was used for training and evaluating the sentiment analysis model.
 css
-Copy code
 
 Feel free to modify and customize the README.md file to suit your specific project needs.
