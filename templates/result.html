@@ -6,6 +6,12 @@
 <body>
     <h1>Analysis Result</h1>
     <p>Input Text: {{ text }}</p>
-    <p>Sentiment: {{ sentiment }}</p>
+    <p>Sentiment: 
+        {% if sentiment == 0 %}
+            Negative Vibes
+        {% else %}
+            Positive Vibes
+        {% endif %}
+    </p>
 </body>
 </html>
